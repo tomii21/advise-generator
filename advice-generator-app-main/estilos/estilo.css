@@ -1,0 +1,87 @@
+div {
+  background-color: hsl(217, 19%, 24%);
+  width: 25%;
+  border-radius: 10px;
+  z-index: 0;
+}
+div .id {
+  color: hsl(150, 100%, 66%);
+  text-align: center;
+  padding-top: 1em;
+}
+.body-card {
+  width: 100%;
+}
+.advice {
+  color: #fff;
+  text-align: center;
+}
+.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background-color: hsl(150, 100%, 66%);
+  position: relative;
+  margin: 0 auto;
+  top: 1.5em;
+  margin-top: 1em;
+
+  z-index: 2;
+}
+div svg {
+  width: 100%;
+  position: relative;
+  padding-top: 10%;
+  left: 3%;
+}
+.circle svg {
+  position: relative;
+  top: 15%;
+  left: 25%;
+}
+
+
+@media screen and (min-width > 300px)and ( max-width < 500px) {
+  div {
+    background-color: hsl(217, 19%, 24%);
+    width: 100%;
+    border-radius: 10px;
+    z-index: 0;
+  }
+  div .id {
+    color: hsl(150, 100%, 66%);
+    text-align: center;
+    padding-top: 1em;
+  }
+  .body-card {
+    width: 100%;
+  }
+  .advice {
+    color: #fff;
+    text-align: center;
+  }
+  .circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: hsl(150, 100%, 66%);
+    position: relative;
+    margin: 0 auto;
+    top: 1.5em;
+    margin-top: 1em;
+  
+    z-index: 2;
+  }
+  div svg {
+    font-size: 80%;
+    position: relative;
+    padding-top: 10%;
+    left: 3%;
+  }
+  .circle svg {
+    position: relative;
+    top: 15%;
+    left: 25%;
+  }
+  
+}
